@@ -761,7 +761,10 @@ const mynumber = (...number) => {
 function ditambahkan(...angka) {
   return angka.reduce((angka1, angka2) => angka1 + angka2);
 }
-
+const dekripsi = (...dekripsi) => {
+  return dekripsi;
+};
+console.log(dekripsi("Relingga", "Aditya", "Ganteng"));
 // destruction Bongkar Element Array Ke Masing-Masing Variabel Dengan Mudah/mengunboxing array
 const jurusan = [
   "rekayasa perangkat lunak",
